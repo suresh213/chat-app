@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap" rel="stylesheet');
+body{
+    font-family: 'Antic', sans-serif;
+}
+.outer-container{
+    justify-content: center;
+    align-items: center;
+    background: #314755; 
+background: -webkit-linear-gradient(to bottom, #314755,#26a0da); 
+background: linear-gradient(to bottom, #314755,#26a0da); 
+
+    height: 100vh;
+    display: flex;
+}
+
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 65%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+@media screen and (max-width:600px){
+    .outer-container {
+        display: block;
+      }
+      .inner-container{
+        height: 100%;
+        width: 100%;
+    }
+}

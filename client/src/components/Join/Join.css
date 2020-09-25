@@ -1,0 +1,96 @@
+html,body{
+    margin:0;
+    padding:0;
+    
+}
+#root{
+    height:100vh;
+}
+.outerContainer{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    
+    background: #2b5876;
+    background: -webkit-linear-gradient(to bottom, #4e4376, #2b5876); 
+    background: linear-gradient(to bottom, #4e4376, #2b5876);
+
+    align-items: center;
+}
+.innerContainer{
+    width: 40%;
+    height: 44%;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.namefield{
+    border:none;
+    padding: 10px 14px;
+    width: 50%;
+    outline: none;
+    font-size:20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid white;
+    background-color: black;
+    color: white;
+}
+.namediv{
+    display: flex;
+}
+.name{
+    color: white;
+    font-size: 20px;
+    width: 30%;
+}
+.roomfield{
+    border:none;
+    padding: 10px 14px;
+    width: 50%;
+    outline: none;
+    font-size:20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid white;
+    background-color: black;
+    color: white;
+}
+.join-btn{
+    margin-top: 3vh;
+    width: 70%;
+    padding:8px;
+    background-color: cadetblue;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.head1{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    color: white;
+}
+.msg-icon1{
+    height: 45px;
+    width: 45px;
+    padding:5px;
+}
+@media screen and (max-width:600px){
+    .innerContainer{
+        width: 90%;
+        height: 47%;
+        background-color: black;
+        text-align: center;
+    }
+}
+#footer1{
+    margin-top:30px ;
+}
